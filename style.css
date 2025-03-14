@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000d3;
+    font-family: "Roboto", sans-serif;
+}
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__container{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    backdrop-filter: blur(40px);
+}
+.card__search{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.card__serach-input{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.897);
+    backdrop-filter: blur(30px);
+}
+.card__serach-input:focus ,.card__serach-input::placeholder{
+    color: rgb(80, 80, 80);
+}
+.card__serach-img{
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.weather{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0.1px;
+}
+.wather__logo{
+    width: 150px;
+}
+.weather__title{
+    font-size: 4rem;
+    color: white;
+}
+.weather__description{
+    color: white;
+    font-size: 2rem;
+    font-weight:500;
+}
+
